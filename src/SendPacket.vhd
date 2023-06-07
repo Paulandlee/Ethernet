@@ -1,4 +1,4 @@
-      -- Find En = 1 at Rising_Edge(Clk)
+      -- Find En = 1 at Rising_Edge(Clk) 
 --      wait on Clk until Tx_En = '1' and Rising_Edge(iTxClk) ; 
       loop
         GetByte(oData, oEn, oEr) ; 
